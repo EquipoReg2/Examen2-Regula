@@ -72,10 +72,10 @@ Lo que se espera del código <b>ClienteEmisor.py</b> es que pueda conectarse con
 # Servidor 
 <div align="justify">
 Para tener el servidor desde tu computadora hacer lo siguiente:<br>
-En caso de tener un modem de INFINITUM ingresar a http://192.168.1.254/login.html y buscar el apartado "DMZ" (Demilitarized Zone ó Zona desmilitarizada) y activamos la función DMZ.<br>
-Buscar el apartado "Mapeo de Puertos/Port Mapping" y una vez ahí en la sección "Reenvió de Puertos" definimos un puerto nuevo y especificamos que se trata de un Protocolo TCP.<br>
+En caso de tener un modem de INFINITUM ingresar a http://192.168.1.254/login.html y buscar el apartado <b>DMZ</b> (Demilitarized Zone o Zona desmilitarizada) y activamos la función DMZ<br>
+Buscar el apartado <b>Mapeo de Puertos/Port Mapping</b> y una vez ahí en la sección <b>Reenvio de Puertos</b> definimos un puerto nuevo y especificamos que se trata de un Protocolo TCP<br>
  
-<b>Nota:</b> Es importante guardar los datos de la Dirección IP Pública.
+Nota: Es importante guardar los datos de la <b>Dirección IP Pública</b>
 </div>
  
 ### Código
@@ -83,28 +83,29 @@ Buscar el apartado "Mapeo de Puertos/Port Mapping" y una vez ahí en la sección
 <b>main.js:</b><br>
 Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
 <ul>
- <li>Tener descargados por lo menos el "package.json" y el servidor "main.js" en la carpeta que se está trabajando.</li>
+ <li>Tener descargados por lo menos el <b>package.json</b> y el servidor <b>main.js</b> en la carpeta que se está trabajando</li>
  <li>Desde la ubicación dentro de la carpeta abrir la consola (cmd) y escribir lo siguiente:
   <ul>
-   <li><b>Ejemplo:</b><br>
+   <li>por ejemplo:<br>
     <i>C:\Users\minim\Desktop\Sistema de Computo y Redes\Examen></i><b>npm install</b><br></li>
   </ul></ul>
   
   <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/npminstall.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/><br>
-  esto crea dos nuevos elementos en la carpeta de trabajo, una carpeta llamada <b>"node_modules"</b> que es donde se almacenan todas las dependencias y librerías que utilizas en tu proyecto nodejs y el <b>"package-lock.json"</b> que es como un historial de las operaciones <i>npm</i> que modifiquen el <b>"node_modules"</b>.</li>
+ </div>
+  Esto crea dos nuevos elementos en la carpeta de trabajo, una carpeta llamada <b>node_modules</b> que es donde se almacenan todas las dependencias y librerías que utilizas en tu proyecto nodejs y el <b>package-lock.json</b> que es como un historial de las operaciones <i>npm</i> que modifiquen el <b>node_modules</b>.</li>
   Tambien es necesario instalar nodemon y socket.io, estos se instalan con los siguientes comandos: <b>npm install --save nodemon</b> y <b>npm install socket.io</b>.
  <ul>
  <li>Ahora desde la consola en la carpeta de trabajo hay que escribir lo siguiente:
  <ul>
-   <li><b>Ejemplo:</b><br>
+   <li>por ejemplo:<br>
     <i>C:\Users\minim\Desktop\Sistema de Computo y Redes\Examen></i><b>npm start</b><br></li>
   </ul>
- como resultado en la consola se despliega el mensaje <b>"Servidor corriendo en http://localhost:80"</b>, ademas deberiamos poder recivir conecciones desde el <b>"ClienteEmisor.py"</b>. Y con eso sabemos que todo salió bien.</li>
+ Como resultado en la consola se despliega el mensaje <b>Servidor corriendo en http://localhost:80</b>, por lo que se debería poder recibir conecciones desde el <b>ClienteEmisor.py</b>. Indicando que todo funciona perfectamente</li>
 </ul>
  
 <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/servidor.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
- Lo que se espera del código <b>"main.js"</b> es que reciba la coneccion del <b>cliente emisor</b> y se conecte con el <b>cliente receptor</b> para enviar los datos leídos del arduino y poder realizar diferentes acciones en el <b>cliente receptor</b>.
+ Lo que se espera del código <b>main.js</b> es que reciba la coneccion del <b>cliente emisor</b> y se conecte con el <b>cliente receptor</b> para enviar los datos leídos del arduino y poder realizar diferentes acciones en el <b>cliente receptor</b>
 <div/>
  
 <div align="right">
