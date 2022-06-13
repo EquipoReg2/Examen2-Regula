@@ -52,21 +52,17 @@ Es bastante sencilla la composición del circuito ya que el mismo joystick indic
 
 <b>ClienteEmisor.py:</b>
 <ul>
- <li>Desde la ubicacion del archivo "Cliente emisor.py" abrir la consola (cmd) y ejecutar el programa.</li>
+ <li>Desde la ubicacion del archivo <b>Cliente emisor.py</b> abrir el cmd y ejecutar el programa</li>
  <ul>
-  <li><b>Ejemplo:</b><br>
+  <li><b>Por ejemplo:</b><br>
     <i>C:\Users\minim\Desktop\Sistema de Computo y Redes\Examen></i><b>python ClienteEmisor.py</b><br></li>
  </ul>
 </ul>
-Lo anterior debería desplegar una pequeña ventana donde se puede seleccionar el puerto del arduino y se debe introducir el usuario y el servidor al que se quiere conectar. Y así sabemos que todo salio bien.<br>
  
-<img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/interfaz.png" alt="Circuito Emisor" style="height: 30%; width:50%;"/><br>
-El nombre de usuario ingresado será el que se use para validar el acceso en el <b>"index.html"</b>.<br>
- 
-Lo que se espera del código "ClienteEmisor.py" es que pueda conectarse con el servidor cuando el "main.js" se esté ejecutando y que le mande la información leída del arduino para que el servidor la envíe al cliente receptor.
+Lo que se espera del código <b>ClienteEmisor.py</b> es que pueda conectarse con el servidor cuando el "main.js" se esté ejecutando y que le mande la información leída del arduino para que el servidor la envíe al cliente receptor.
 </div>
 
-<img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/emisor.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
+<img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/emisor.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
 <div align="right">
  
