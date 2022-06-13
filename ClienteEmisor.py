@@ -23,7 +23,6 @@ try:
 	arduino = serial.Serial(portArduino, baudios)
 except:
 	print('Cannot conect to the port')
-
 while True:
 	lectura = arduino.readline().decode(encoding="ascii", errors="ignore")
 	send_msg(lectura)
