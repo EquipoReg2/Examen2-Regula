@@ -27,15 +27,13 @@ El sistema se compone de tres módulos o bloques independientes que interactúan
 <div align="justify">
 Los materiales que se utilizaron son: <br>
 <ul>
- <li>Arduino uno.</li>
- <li>8 resistenciias de 1k ohms.</li>
- <li>1 Protoboard.</li>
- <li>7 Push buttos.</li>
+ <li>Arduino</li>
+ <li>Joystick</li>
 </ul>
 
 A continuacion armar el circuito de la imagen.
 
-<img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/CircuitoEmisor.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
+<img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/joystick.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
 Los botones tienen asignados los números del 1 al 6 y el 13, además, cada botón con su respectivo número tiene una función diferente en el cliente receptor como se muestra en la imagen.
 </div>
