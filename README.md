@@ -92,7 +92,7 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
   
   <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/npminstall.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/><br>
  </div>
-  Eso crea dos nuevos elementos en la carpeta de trabajo, una carpeta llamada <b>node_modules</b> donde se almacenarían todas las dependencias y librerías que utilizas en tu proyecto nodejs y el <b>package-lock.json</b> que es ejerce como un historial de las operaciones <i>npm</i> que modifiquen el <b>node_modules</b>.</li>
+  Eso crea dos nuevos elementos en la carpeta de trabajo, una carpeta llamada <b>node_modules</b> donde se almacenarían todas las dependencias y librerías que utilizas en tu proyecto nodejs y el <b>package-lock.json</b> que ejerce como un historial de las operaciones <i>npm</i> que modifiquen el <b>node_modules</b>.</li>
   Tambien es necesario instalar nodemon y socket.io, estos se instalan con los siguientes comandos: <b>npm install --save nodemon</b> y <b>npm install socket.io</b>
  <ul>
  <li>Ahora desde la consola en la carpeta de trabajo se escribe lo siguiente:
