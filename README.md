@@ -48,7 +48,7 @@ Es bastante sencilla la composición del circuito ya que el mismo joystick indic
  </li>
  <li>Seleccionar el boton de Subir</li>
 </ul>
-<p>Lo que se espera del código "Emisor.ino" es que cada botón nos regrese un valor del 1 al 6 y el 13 que será leído por el código "ClienteEmisor.py" y enviado al servidor.</p>
+<p>LSe estima que el código ArduinoEmisor.ino nos otorgue 3 distintos valores mediante el joystick los cuales son 2, 4 y 5 que serán leídos por el código "ClienteEmisor.py" y enviados al servidor</p>
 
 <b>ClienteEmisor.py:</b>
 <ul>
