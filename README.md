@@ -44,11 +44,11 @@ Es bastante sencilla la composición del circuito ya que el mismo joystick indic
 <b>ArduinoEmisor.ino:</b> 
 <ul>
  <li>Abrir el archivo en el IDE de Arduino</li>
- <li>En la pestaña de Herramientas se selecciona la placa en la que se subirár el codigo, así como el puerto en el que se encuentre conectado el microocontrolador
+ <li>En la pestaña de <b>Herramientas</b> se selecciona la placa en la que se subirár el codigo, así como el puerto en el que se encuentre conectado el microocontrolador
  </li>
- <li>Seleccionar el boton de Subir</li>
+ <li>Seleccionar el boton de <b>Subir</b></li>
 </ul>
-<p>Se estima que el código ArduinoEmisor.ino nos otorgue 3 distintos valores mediante el joystick los cuales son 2, 4 y 5 que serán leídos por el código "ClienteEmisor.py" y enviados al servidor</p>
+<p>Se estima que el código <b>ArduinoEmisor.ino</b> nos otorgue 3 distintos valores mediante el joystick los cuales son 2, 4 y 5 que serán leídos por el código <b>ClienteEmisor.py</b> y enviados al servidor</p>
 
 <b>ClienteEmisor.py:</b>
 <ul>
