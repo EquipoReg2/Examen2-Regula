@@ -29,13 +29,14 @@ Los materiales que se utilizaron son: <br>
 <ul>
  <li>Arduino</li>
  <li>Joystick</li>
+ <li>5 cables hembra/macho</li>
 </ul>
 
 A continuacion armar el circuito de la imagen.
 
 <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/joystick.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
-Los botones tienen asignados los números del 1 al 6 y el 13, además, cada botón con su respectivo número tiene una función diferente en el cliente receptor como se muestra en la imagen.
+Es bastante sencilla la composición del circuito ya que el mismo joystick indica los puertos que necesitan ser conectados al arduino, los cuales son 5V, GND, A0, A1 y 2, siendo un total de 5 puertos.
 </div>
  
 ### Código
