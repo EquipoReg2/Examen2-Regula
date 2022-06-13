@@ -126,7 +126,7 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
  
  <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/inicio.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
-Le rezo a dios para pasar esta materia porfavor <3</b>
+Le rezo a dios para pasar esta materia porfavor
 
 <div align="right">
  
