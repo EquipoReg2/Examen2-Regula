@@ -114,26 +114,19 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
  
 # Cliente receptor 
 <div align="justify">
- El cliente receptor consta de varias páginas web en documentos html.
+ El cliente receptor cuenta con su html donde se encuentra el juego space invaders como se ve adelante:
  <ul>
-  <li>La primera página a la que accedemos es <b>"index.html"</b> donde tenemos que hacer <i>login</i> con el nombre de usuario ingresado en el <b>"ClienteEmisor.py"</b>.<br>
- </ul>
+ La página a la que se accede es <b>index.html</b>
  
   <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/login.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/></li>
  
  <ul>
-  <li>Una vez hecho <i>login</i> ingresamos a la página de inicio donde podemos navegar con los botones "5" y "6" del circuito emisor.</li>
+  <li>Una vez dentro de la página, se presiona el joystick para dar inicio al juego y listo, a jugar.</li>
  </ul>
  
  <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/inicio.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
- 
- <ul>
-  <li>Por último a disfrutar de los jueguitos.</li>
- </ul>
-</div>
 
-
-<b>Gracias por leer hasta el final <3</b>
+Le rezo a dios para pasar esta materia porfavor <3</b>
 
 <div align="right">
  
