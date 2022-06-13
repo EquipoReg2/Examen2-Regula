@@ -32,7 +32,7 @@ Los materiales que se utilizaron son: <br>
  <li>5 cables hembra/macho</li>
 </ul>
 
-A continuacion armar el circuito de la imagen.
+El circuito a armar:
 
 <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/joystick.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
@@ -41,11 +41,12 @@ Es bastante sencilla la composición del circuito ya que el mismo joystick indic
  
 ### Código
 <div align="justify">
-<b>Emisor.ino:</b> 
+<b>ArduinoEmisor.ino:</b> 
 <ul>
- <li>Abrir el archivo en el IDE de Arduino.</li>
- <li>En la pestaña de Herramientas/Tools seleccionamos la Placa en la que se desea subir el codigo y tambien seleccionamos el Puerto al que este conectado el microocontrolador.</li>
- <li>Darle al boton de "Subir/Upload".</li>
+ <li>Abrir el archivo en el IDE de Arduino</li>
+ <li>En la pestaña de Herramientas se selecciona la placa en la que se subirár el codigo, así como el puerto en el que se encuentre conectado el microocontrolador
+ </li>
+ <li>Seleccionar el boton de Subir</li>
 </ul>
 <p>Lo que se espera del código "Emisor.ino" es que cada botón nos regrese un valor del 1 al 6 y el 13 que será leído por el código "ClienteEmisor.py" y enviado al servidor.</p>
 
