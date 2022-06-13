@@ -28,16 +28,14 @@ El sistema se compone de tres módulos o bloques independientes que interactúan
 Los materiales que se utilizaron son: <br>
 <ul>
  <li>Arduino uno.</li>
- <li>8 resistenciias de 1k ohms.</li>
- <li>1 Protoboard.</li>
- <li>7 Push buttos.</li>
+ <li>Joystick.</li>
 </ul>
 
-A continuacion armar el circuito de la imagen.
+A continuación armar el circuito de la imagen.
 
-<img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/CircuitoEmisor.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
+<img src="" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 
-Los botones tienen asignados los números del 1 al 6 y el 13, además, cada botón con su respectivo número tiene una función diferente en el cliente receptor como se muestra en la imagen.
+Es bastante sencilla la composición del circuito ya que el mismo joystick indica los puertos que necesitan ser conectados al arduino, los cuales son 5V, GND, A0, A1 y 2, siendo un total de 5 puertos.
 </div>
  
 ### Código
@@ -58,7 +56,6 @@ Los botones tienen asignados los números del 1 al 6 y el 13, además, cada bot�
     <i>C:\Users\minim\Desktop\Sistema de Computo y Redes\Examen></i><b>python ClienteEmisor.py</b><br></li>
  </ul>
 </ul>
-Lo anterior debería desplegar una pequeña ventana donde se puede seleccionar el puerto del arduino y se debe introducir el usuario y el servidor al que se quiere conectar. Y así sabemos que todo salio bien.<br>
  
 <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/interfaz.png" alt="Circuito Emisor" style="height: 30%; width:50%;"/><br>
 El nombre de usuario ingresado será el que se use para validar el acceso en el <b>"index.html"</b>.<br>
