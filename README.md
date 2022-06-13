@@ -43,23 +43,23 @@ Es bastante sencilla la composición del circuito ya que el mismo joystick indic
 <div align="justify">
 <b>ArduinoEmisor.ino:</b> 
 <ul>
- <li>Abrir el archivo en el IDE de Arduino</li>
- <li>En la pestaña de <b>Herramientas</b> se selecciona la placa en la que se subirár el codigo, así como el puerto en el que se encuentre conectado el microocontrolador
+ <li>Se abre el archivo en el IDE de Arduino</li>
+ <li>En la pestaña de <b>Herramientas</b> se selecciona la placa en la que se subirá el codigo, así como el puerto en el que se encuentre conectado el microocontrolador
  </li>
- <li>Seleccionar el boton de <b>Subir</b></li>
+ <li>Se selecciona el boton de <b>Subir</b></li>
 </ul>
 <p>Se estima que el código <b>ArduinoEmisor.ino</b> nos otorgue 3 distintos valores mediante el joystick los cuales son 2, 4 y 5 que serán leídos por el código <b>ClienteEmisor.py</b> y enviados al servidor</p>
 
 <b>ClienteEmisor.py:</b>
 <ul>
- <li>Desde la ubicacion del archivo <b>Cliente emisor.py</b> abrir el cmd y ejecutar el programa</li>
+ <li>Desde la ubicacion del archivo <b>Cliente emisor.py</b> abrir el <b>cmd</b> y ejecutar el programa</li>
  <ul>
-  <li><b>Por ejemplo:</b><br>
+  <li>En un ejemplo:<br>
     <i>C:\Users\minim\Desktop\Sistema de Computo y Redes\Examen></i><b>python ClienteEmisor.py</b><br></li>
  </ul>
 </ul>
  
-Lo que se espera del código <b>ClienteEmisor.py</b> es que pueda conectarse con el servidor cuando el "main.js" se esté ejecutando y que le mande la información leída del arduino para que el servidor la envíe al cliente receptor.
+Lo que se espera del código <b>ClienteEmisor.py</b> es que pueda conectarse con el servidor cuando el <b>main.js</b> se esté ejecutando y que le mande la información leída del arduino para que el servidor la envíe al cliente receptor.
 </div>
 
 <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/emisor.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
