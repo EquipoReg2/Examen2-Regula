@@ -117,7 +117,7 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
 <div align="justify">
  El cliente receptor cuenta con su html donde se encuentra el juego space invaders como se ve adelante:
  <ul>
- La página a la que se accede es <b>josuegregorio.duckdns.org</b>
+ La página a la que se accede es <b>index.html</b>
   </div>
  
   <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/main.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/></li>
