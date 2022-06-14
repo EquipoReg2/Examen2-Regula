@@ -120,14 +120,14 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
  La página a la que se accede es <b>index.html</b>
   </div>
  
-  <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/login.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/></li>
+  <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/main.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/></li>
  
  <ul>
   <li>Una vez dentro de la página, se presiona el joystick para dar inicio al juego y listo, a jugar.</li>
  </ul>
  </div>
  
- <img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/inicio.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
+ <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/start.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
  
 
 Le rezo a dios para pasar esta materia porfavor
