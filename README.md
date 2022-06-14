@@ -11,7 +11,7 @@
 <div align="justify">
 </A><i>Por medio de hardware realizar acciones en una página web utilizando un servidor con WebSockets.</i>
 
-![Sistema 1](https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/Sistema.jpg "Diagrama del sistema")
+![Sistema 1](./Sistema.jpg "Diagrama del sistema")
 
 Este sistema está compuesto de 3 bloques independientes que interactúan entre sí. Dos de los 3 bloques son clientes, un <b>cliente emisor</b> (controlado por hardware), un <b>cliente receptor</b> (página web con html) y el <b>servidor</b> que permite la comunicación entre los dos clientes con el objetivo de mover objetos o  de realizar diferentes acciones en la página web con la información que envía el bloque emisor.
 </div>
