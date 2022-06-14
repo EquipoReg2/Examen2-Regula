@@ -98,7 +98,7 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
  <li>Ahora desde la consola en la carpeta de trabajo se escribe lo siguiente:
  <ul>
    <li>En un ejemplo:<br>
-    <i>C:\Users\minim\Desktop\Sistema de Computo y Redes\Examen></i><b>npm start</b><br></li>
+    <i>C:\Users\mcjos\Desktop\Sistema de Computo y Redes\Examen></i><b>npm start</b><br></li>
   </ul>
  Como resultado en la consola se despliega el mensaje <b>Servidor corriendo en http://localhost:80</b>, por lo que se debería poder recibir conecciones desde el <b>ClienteEmisor.py</b>. Indicando que todo funciona perfectamente</li>
 </ul>
@@ -117,7 +117,7 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
 <div align="justify">
  El cliente receptor cuenta con su html donde se encuentra el juego space invaders como se ve adelante:
  <ul>
- La página a la que se accede es <b>index.html</b>
+ La página a la que se accede es <b>josuegregorio.duckdns.org</b>
   </div>
  
   <img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/main.jpg" alt="Circuito Emisor" style="height: 100%; width:100%;"/></li>
