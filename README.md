@@ -103,7 +103,7 @@ Si es la primera vez que se ejecuta el servidor es necesario hacer lo siguiente:
  Como resultado en la consola se despliega el mensaje <b>Servidor corriendo en http://localhost:80</b>, por lo que se debería poder recibir conecciones desde el <b>ClienteEmisor.py</b>. Indicando que todo funciona perfectamente</li>
 </ul>
  
-<img src="https://github.com/EquipoDinamit/Examen3/blob/main/imagenes/servidor.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
+<img src="https://github.com/EquipoReg2/Examen2-Regula/blob/main/imagenes/server.jpg" style="height: 100%; width:100%;"/>
 
  Lo que se espera del código <b>main.js</b> es que reciba la conexión del <b>cliente emisor</b> y que se conecte con el <b>cliente receptor</b> para enviar los datos leídos del arduino y así poder realizar diferentes acciones en el <b>cliente receptor</b>
 <div/>
